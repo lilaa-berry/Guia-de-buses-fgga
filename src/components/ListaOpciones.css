@@ -1,0 +1,5 @@
+.lista-opciones {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}

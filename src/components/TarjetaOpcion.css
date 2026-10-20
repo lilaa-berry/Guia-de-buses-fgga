@@ -1,0 +1,67 @@
+.tarjeta-opcion {
+  position: relative;
+  background: #ffffff;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 1.1rem 1.2rem;
+}
+
+.tarjeta-opcion--mejor {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px rgba(255, 213, 79, 0.35);
+}
+
+.etiqueta-mejor {
+  display: inline-block;
+  background: var(--color-accent);
+  color: var(--color-text);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+  margin-bottom: 0.6rem;
+}
+
+.tarjeta-opcion__cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.6rem;
+}
+
+.tarjeta-opcion__costo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.tarjeta-opcion__stats {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.tarjeta-opcion__recorrido {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 0.7rem;
+}
+
+.flecha {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.tarjeta-opcion__rutas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.chip-ruta {
+  background: var(--color-panel);
+  color: var(--color-primary-dark);
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
